@@ -4,6 +4,9 @@ class Tiles(object):
 
     def empty(self) -> None:
         self.value = None
+        
+    def double(self) -> None:
+        self.value *= 2
 
     def set_value(self, value: int) -> None:
         self.value = value
